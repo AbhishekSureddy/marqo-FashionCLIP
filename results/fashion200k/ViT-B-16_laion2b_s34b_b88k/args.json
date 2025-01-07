@@ -1,0 +1,19 @@
+{
+    "data_dir": "./data/",
+    "dataset_config": "./configs/fashion200k.json",
+    "batch_size": 512,
+    "num_workers": 4,
+    "model_name": "ViT-B-16",
+    "run_name": "ViT-B-16_laion2b_s34b_b88k",
+    "pretrained": "laion2b_s34b_b88k",
+    "cache_dir": "/home/jupyter/cache",
+    "device": "cuda",
+    "query_prefix": "",
+    "Ks": [
+        1,
+        10
+    ],
+    "overwrite_embeddings": false,
+    "overwrite_retrieval": false,
+    "output_dir": "./results/fashion200k/ViT-B-16_laion2b_s34b_b88k"
+}

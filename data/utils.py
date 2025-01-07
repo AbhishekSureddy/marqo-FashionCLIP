@@ -28,7 +28,7 @@ class Transform(object):
 
 def get_dataset(args, tokenizer, preprocess):
     logging.info('Loading dataset from huggingface.')
-    doc_dataset = load_dataset(args.dataset_config["hf_dataset"], num_proc=os.cpu_count(), cache_dir=args.cache_dir)['data']
+    doc_dataset = load_dataset(args.dataset_config["hf_dataset"], num_proc=os.cpu_count())['data']
     
     doc_text_cols, query_text_cols = set(), set()
     for task in args.dataset_config["tasks"]:

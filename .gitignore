@@ -1,4 +1,4 @@
 **/__pycache__
-results/
 .cache/
 summary/
+results/*.pt
