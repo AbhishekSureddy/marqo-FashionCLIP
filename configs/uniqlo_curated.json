@@ -1,11 +1,17 @@
 {
-  "name": "UniqloCurated",
+  "name": "uniqlo_curated",
   "hf_dataset": "AbhishekSureddy/uniqlo_curated_100",
   "tasks":[
     {
       "name": "image-to-image",
       "query_col": ["image"],
       "doc_col": ["image"]
+    },
+    {
+      "name": "image-to-image_text",
+      "query_col": ["image"],
+      "doc_col": ["image", "item_name", "materials"],
+      "doc_weights": [0.8, 0.1, 0.1]
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+    "data_dir": "./data/",
+    "dataset_config": "./configs/uniqlo_curated.json",
+    "batch_size": 512,
+    "num_workers": 4,
+    "model_name": "Marqo/marqo-fashionSigLIP",
+    "run_name": "Marqo/marqo-fashionSigLIP",
+    "pretrained": null,
+    "cache_dir": "/home/jupyter/cache",
+    "device": "cuda",
+    "query_prefix": "",
+    "Ks": [
+        1,
+        10
+    ],
+    "overwrite_embeddings": false,
+    "overwrite_retrieval": false,
+    "output_dir": "./results/uniqlo_curated/Marqo/marqo-fashionSigLIP"
+}

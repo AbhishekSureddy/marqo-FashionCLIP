@@ -2,3 +2,5 @@
 .cache/
 summary/
 results/*.pt
+results/fashion200k/Marqo/marqo-fashionSigLIP/embeddings.pt
+results/fashion200k/ViT-B-16_laion2b_s34b_b88k/embeddings.pt
